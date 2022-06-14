@@ -1,0 +1,145 @@
+body {
+  background: -webkit-linear-gradient(315deg, rgb(144, 32, 57) 23%, rgb(0, 0, 0) 55%, rgb(64, 110, 172) 80%);
+background: -moz-linear-gradient(315deg, rgb(144, 32, 57) 23%, rgb(0, 0, 0) 55%, rgb(64, 110, 172) 80%);
+background: linear-gradient(315deg, rgb(144, 32, 57) 23%, rgb(0, 0, 0) 55%, rgb(64, 110, 172) 80%);
+}                               /*фон*/
+p{
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 2.1vh;
+  font-family: Arial;
+  color: rgb(182, 188, 214); 
+  text-align: justify;
+  text-indent: 30px;
+  }                     /*первая часть текста*/
+.menu1{
+    position: fixed;
+    top: 2vh;
+    left: 4%;
+    margin: 4vh auto;
+    list-style: none;
+    font-size: 1.5vw;  
+  }                 /*настройка положения меню*/ 
+.menu2{
+    position: fixed;
+    top: 2vh;
+    left: 0%;
+    text-align: center;
+    margin: 4vh auto;
+    list-style: none;
+    font-size: 1.5vw;
+  }
+.menu3{
+    list-style: none;
+    position: fixed;
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 14% auto;
+  }
+h1{
+    font-family: 'Rubik One', sans-serif;
+    font-size: 2.65vw;
+    text-transform: uppercase;
+    background: #2E2F45;
+    display: table;
+    margin: 4% ;
+    color: white;
+    border-radius: 5px;
+    mix-blend-mode: multiply;
+    padding: 5px 10px;  
+  } /*Меню*/
+a{
+    text-decoration: none;
+    font-family: 'Rubik One', sans-serif;
+    font-size: 100%;
+    text-transform: uppercase;
+    background: #2E2F45;
+    display: table;
+    margin: 4% auto;
+    color: white;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+    padding: 0.5vw 1vw;
+    margin-block-start: 1em;
+    margin-block-end: 1em;}                  /*ссылки*/
+.img1{
+    width: 10vw;
+  }               /*меню изображение*/
+.img2{
+  width: 50%;
+    margin: 2% 0 0 20%; 
+  }                   /*первое изображение*/
+  .img3{
+    width: 50%;
+    margin: 3% 0 0 20%;
+    }                 /*второе изображение*/
+  .img4{
+    width: 70%;
+    margin: 0 0 0 15%;
+  }                       /*фейсбук*/
+  .img5{
+    width: 70%;
+    margin: 3% 0 0 15%;
+
+  }
+  .img6{
+    width: 90%;
+    margin: 1% 0 0 5%;
+  }
+  .img7{
+    width: 70%;
+  }
+
+  .img8{
+    width: 50%;
+    margin: 3% 0 0 24%;
+  }
+
+  .right{
+    text-align: right;
+  }
+
+
+
+.content {
+  border-radius: 50px;
+  box-shadow: 0 0 0 2px;
+    border: 5px solid #003d50;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0f000071;
+    padding: 0px 20px 20px 20px;
+    text-align: justify; 
+  }                               /*рамка*/
+p1{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2.1vh;
+    font-family: Arial;
+    color: rgb(182, 188, 214);  
+  }                           /*вторая часть текста*/
+p2{
+  text-decoration:underline;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+  }                         /*выделения слов*/
+h2{
+    text-align: center;
+    font-size: 4.2vh;
+    color: rgb(182, 188, 214);
+    font-weight: 600;
+  }
+h3{
+  text-align: left;
+    font-size: 2.5vh;
+    color: rgb(182, 188, 214);
+    font-weight: 400;
+}
+table{
+  text-align: center;
+  width: 300px;
+  background: linear-gradient(45deg, #0400ff, #ff0000);
+
+}
